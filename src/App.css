@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.small {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (min-width: 500px) {
+  .small {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 624px) {
+  .small {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
