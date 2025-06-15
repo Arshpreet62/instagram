@@ -7,7 +7,7 @@ const ContextProvider = ({ children }) => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch(`http://localhost:3000`);
+      const response = await fetch(`https://instagram-hd3k.onrender.com/`);
       const data = await response.json();
       setUser(data);
     } catch (error) {
