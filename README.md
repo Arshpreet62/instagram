@@ -1,13 +1,41 @@
-# React + Vite
+# 📸 InstaClone – Instagram Fullstack UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Instagram clone** built with **React**, **TailwindCSS**, and **TypeScript** on the frontend, and **Node.js**, **Express**, and `@faker-js/faker` on the backend. This project replicates the **core look and feel** of Instagram, allowing users to view posts, navigate between pages, and simulate user interactions using generated fake data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+- 🔗 **Frontend:** [https://instagram-kdb5b4o98-arshpreet62s-projects.vercel.app/](https://instagram-kdb5b4o98-arshpreet62s-projects.vercel.app/)
+- 🔗 **Backend API:** [https://instagram-hd3k.onrender.com/](https://instagram-hd3k.onrender.com/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# instagram
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚛️ React (with Vite)
+- 🎨 TailwindCSS
+- ⛓️ TypeScript
+- 📱 Fully responsive layout
+
+### Backend
+- 🌐 Express.js (Node.js)
+- 🤖 @faker-js/faker (for simulating users, posts, comments)
+- 🛡️ CORS & JSON middleware
+
+---
+
+## 📦 Features
+
+- 🖼️ View Feed: See a stream of fake user posts with images, captions, and timestamps
+- 🙋 Profile Page: Simulated profile UI with avatar, bio, followers/following, and grid posts
+- 💬 Comments Section: View and simulate posting comments
+- 🔁 Story Layouts: Horizontal scrolling stories UI like Instagram
+- 📲 Mobile & Desktop Responsive
+- 🎯 Basic navigation between Home, Explore, and Profile
+
+---
+
+## 📁 Project Structure
+
