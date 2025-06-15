@@ -12,7 +12,9 @@ export default function Scroll() {
   const fetchPosts = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:3000/posts/${page}`);
+      const response = await fetch(
+        `https://instagram-hd3k.onrender.com/posts/${page}`
+      );
       const data = await response.json();
       setTotal(data.totalPages);
       setPosts((prev) => (page === 1 ? data.data : [...prev, ...data.data]));
