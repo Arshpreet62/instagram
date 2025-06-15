@@ -16,7 +16,7 @@ function App() {
   return (
     <ContextProvider>
       <div className="flex h-screen flex-col w-screen bg-white relative ">
-        <Route path="/home" component={Home} />
+        <Route path="/" component={Home} />
         <Route path="/search" component={Search} />
         <Route path="/post" component={Post} />
         <Route path="/profile" component={Profile} />

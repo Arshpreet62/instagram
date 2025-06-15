@@ -15,7 +15,7 @@ export default function Navi() {
   }, [user]);
   return (
     <div className="flex justify-between  h-[45px] w-full">
-      <Link to="/home">
+      <Link to="/">
         <div className="flex  justify-center items-center h-[45px] min-w-[75px] ">
           {location === "/" ? (
             <svg
