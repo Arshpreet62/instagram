@@ -35,7 +35,7 @@ A responsive **Instagram clone** built with **React**, **TailwindCSS**, and **Ty
 - 📲 Mobile & Desktop Responsive
 - 🎯 Basic navigation between Home, Explore, and Profile
 
----
+---![Screenshot from 2025-06-15 18-21-00](https://github.com/user-attachments/assets/c2f2655d-3e8e-48aa-a8c0-57585d21baee)
 
-## 📁 Project Structure
+
 
